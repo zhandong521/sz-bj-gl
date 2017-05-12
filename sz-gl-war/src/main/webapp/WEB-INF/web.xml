@@ -46,6 +46,19 @@
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
+    <!--访问webapp下的静态资源——begin-->
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.js</url-pattern>
+        <url-pattern>*.css</url-pattern>
+        <url-pattern>*.jpg</url-pattern>
+        <url-pattern>*.gif</url-pattern>
+        <url-pattern>*.png</url-pattern>
+        <url-pattern>*.html</url-pattern>
+        <url-pattern>*.xls</url-pattern>
+        <url-pattern>*.swf</url-pattern>
+    </servlet-mapping>
+    <!--访问webapp下的静态资源——end-->
     
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
