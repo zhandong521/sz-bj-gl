@@ -41,8 +41,8 @@
             <properties>
 
 
-                <!-- 日志级别 -->
-                <log.level>INFO</log.level>
+            <!-- 日志级别 -->
+            <log.level>INFO</log.level>
             </properties>
         </profile>
 
